@@ -1,45 +1,44 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-  </head>
-  <body>
-    <aside>
-      <p>
-        Educação não é aprendizado de fatos, mas o treinamento da mente para
-        pensar.
-        <span>Albert Einstein</span>
-      </p>
-    </aside>
+<html lang="en" style="font-family: Arial, sans-serif">
 
-    <main>
-      <h1>Bem-vindo de volta</h1>
-      <p>
-        Por favor, insira suas credenciais para acessar seu painel acadêmico
-      </p>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+</head>
 
-      <form action="/enviar" method="post">
-        <label for="email">Endereço de e-mail</label>
-        <input
-          id="email"
-          name="email"
-          type="text"
-          placeholder="user@email.com"
-        />
+<body>
+  <aside>
+    <p>
+      Educação não é aprendizado de fatos, mas o treinamento da mente para
+      pensar.
+      <span>Albert Einstein</span>
+    </p>
+  </aside>
 
-        <label>Senha</label>
-        <input type="password" />
+  <main>
+    <h1>Bem-vindo de volta</h1>
+    <p>
+      Por favor, insira suas credenciais para acessar seu painel acadêmico
+    </p>
 
-        <a href="recuperar-senha.html">Esqueceu?</a>
+    <form action="/enviar" method="post">
+      <label for="email">Endereço de e-mail</label>
+      <input id="email" name="email" type="text" placeholder="usuario@exemplo.com" />
 
-        <button type="submit">Entrar</button>
-      </form>
+      <label>Senha</label>
+      <input type="password" />
 
-      <p>
-        Não tem conta? <a href="cadastro-usuario.html">Registre-se agora</a>
-      </p>
-    </main>
-  </body>
+      <a href="recuperar-senha.html">Esqueceu sua senha?</a>
+
+      <button type="submit">Entrar</button>
+    </form>
+
+    <p>
+      Não tem conta? <a href="cadastro-usuario.html">Registre-se agora</a>
+    </p>
+  </main>
+</body>
+
 </html>
