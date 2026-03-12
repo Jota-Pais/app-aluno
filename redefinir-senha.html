@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" style="font-family: Arial, sans-serif">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redefinir Senha</title>
+</head>
+<body>
+    <aside>
+        <p>
+            Educação não é aprendizado de fatos, mas o treinamento da mente para pensar.
+            <span>Albert Einstein</span>
+        </p>
+    </aside>
+
+    <main>
+        <h1>Redefinir Senha</h1>
+        <p>Por favor, insira sua nova senha.</p>
+        
+        <form action="/redefinir-senha" method="post">
+            <div>
+                <label for="senha">Senha</label>
+                <input id="senha" name="senha" type="password" placeholder="Digite sua nova senha" />
+            </div>
+            <div>
+                <label for="confirmar-senha">Confirmar Senha</label>
+                <input id="confirmar-senha" name="confirmar-senha" type="password" placeholder="Confirme sua nova senha" />
+            </div>
+            
+            <button type="submit">Redefinir Senha</button>
+        </form>
+    </main>
+    
+</body>
+</html>
