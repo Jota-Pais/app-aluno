@@ -9,42 +9,47 @@
 </head>
 
 <body>
-  <aside>
-    <p>
-      Educação não é aprendizado de fatos, mas o treinamento da mente para
-      pensar.
-      <span>Albert Einstein</span>
-    </p>
-  </aside>
+  <div class="container">
+    <aside>
+      <p>
+        "Educação não é aprendizado de fatos, mas o treinamento da mente para
+        pensar."
+        <span>- Albert Einstein</span>
+      </p>
+    </aside>
 
-  <main>
-    <h1>Bem-vindo de volta</h1>
-    <p>
-      Por favor, insira suas credenciais para acessar seu painel acadêmico
-    </p>
+    <main>
+      <div class="card">
+        <h1>Bem-vindo de volta</h1>
+        <p>
+          Por favor, insira suas credenciais para acessar seu painel acadêmico
+        </p>
 
-    <form action="/enviar" method="post">
-      <div>
-        <label for="email">Endereço de e-mail</label>
-        <input id="email" name="email" type="text" placeholder="usuario@exemplo.com" />
-      </div>
+        <form action="/enviar" method="post">
+          <div>
+            <label for="email">Endereço de e-mail:</label>
+            <input id="email" name="email" type="email" placeholder="usuario@exemplo.com" />
+          </div>
 
-      <div>
-        <label>Senha</label>
-        <input type="password" />
-      </div>
-      <div>
-        <button type="submit">Entrar</button>
-      </div>
-      <div>
-        <a href="recuperar-senha.html">Esqueceu sua senha?</a>
-      </div>
-    </form>
+          <div>
+            <label>Senha:</label>
+            <input type="password" />
+          </div>
+          <div>
+            <a href="recuperar-senha.html">Esqueceu sua senha?</a>
+          </div>
 
-    <p>
-      Não tem conta? <a href="cadastro-usuario.html">Registre-se agora</a>
-    </p>
-  </main>
+          <div>
+            <button type="submit">Entrar</button>
+          </div>
+        </form>
+
+        <p>
+          Não tem conta? <a href="cadastro-usuario.html">Registre-se agora</a>
+        </p>
+      </div>
+    </main>
+  </div>
 </body>
 
 </html>
